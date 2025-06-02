@@ -31,7 +31,7 @@ sudo Portsaanner.py -t www.google.com
 ```
 
 To scan for a specific port you would use -p or --port argument. If there is no port specified it will default to checking the first
-50 ports. *As of current state doing large scans can be very slow. It is best to do check for a single port or a shorter range of scans*
+50 ports. *As of current state doing large scans can be very slow. It is best to check for a single port or a shorter range of scans*
 ```
 sudo Portscanner.py -t 8.8.8.8 -p 53 
 
