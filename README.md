@@ -38,7 +38,7 @@ sudo Portscanner.py -t 8.8.8.8 -p 53
 sudo Portscanner.py -t www.google.com -p 53
 ```
 
-To scan a range of ports you would add a - in between the numbers
+To scan a range of ports you would add a "-" in between the numbers
 ```
 sudo Portscanner.py -t 8.8.8.8 -p 1-10
 
@@ -53,5 +53,5 @@ sudo Portscanner.py -t www.google.com -p 22,53,23,8080
 ```
 
 ### Disclamer 
-THIS IS INTENDED FOR EDUCATIONAL PURPOSES ONLY. This project was written
+***THIS IS INTENDED FOR EDUCATIONAL PURPOSES ONLY***. This project was written
 to better understand of port scanning and networks.
