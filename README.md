@@ -11,7 +11,7 @@ colorama
 ```
 
 ### Installation
-*Linux users please check your respective distro for any specific installations for the libraries*
+*Linux users please check your respective distro for any specific installations of libraries*
 ```
 Windows/Linux
 pip install scapy
