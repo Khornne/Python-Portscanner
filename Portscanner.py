@@ -2,7 +2,7 @@
 import argparse
 
 from colorama import Fore, init
-from scapy.all import *
+from scapy.all import IP, TCP, sr
 
 # Colorama init
 init(autoreset=True)
@@ -64,7 +64,7 @@ def main():
             args.target, PortScanner(args.target, []).parse_ports(args.port)
         )
     else:
-        default_ports = range(1, 1001)
+        default_ports = range(1, 50)
         scanner = PortScanner(args.target, default_ports)
 
     scanner.scan()
