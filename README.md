@@ -1,8 +1,7 @@
 # Simple Portscanner
 
 Simple portscanner using python that is built with [Scapy](https://pypi.org/project/scapy/), it will scan and check for ports
-that are open. Bare in mind this is made through python and currently if you are doing large scans 
-it tends to go really ***slow***.
+that are open.
 
 ### Requirments
 ```
@@ -12,8 +11,7 @@ colorama
 ```
 
 ### Installation
-Scapy Insallation.
-Regarding linux I understand you can install most through pip, however it is still recommended to check your distro on any 
+*Linux users please check your respective distro for any specific installations for the libraries*
 ```
 Windows/Linux
 pip install scapy
