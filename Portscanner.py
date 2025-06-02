@@ -13,6 +13,7 @@ class PortScanner:
         self.target_ip = target_ip
         self.ports = ports
 
+    # Proccess a range of ports inputted by the user
     def parse_ports(self, port_input):
         ports = set()
         for part in port_input.split(","):
@@ -23,6 +24,7 @@ class PortScanner:
                 ports.add(int(part))
         return sorted(ports)
 
+    # Scans the ports of the target IP
     def scan(self):
         print(Fore.YELLOW + f"Scanning {self.target_ip} for open ports..")
         for port in self.ports:
@@ -54,7 +56,7 @@ def main():
         "--port",
         "-p",
         type=str,
-        help="Lists of ports to scan. Defaul scans first 1000 ports",
+        help="Lists of ports to scan. Default scans first 50 ports",
     )
 
     args = parser.parse_args()
